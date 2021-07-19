@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles/globals.css';
+import './styles/components/shared/headers/headerLandingPage.css';
+import './styles/components/shared/footers/footerLanding.css';
+import './styles/components/shared/newsletter/newsletterLanding.css'
+import './styles/components/partials/landing/blockMain.css';
+import './styles/components/partials/landing/blockCards.css';
+import './styles/components/partials/landing/blockXp.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App />,
   document.getElementById('root')
 );
 

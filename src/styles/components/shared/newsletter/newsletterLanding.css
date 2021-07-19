@@ -1,0 +1,35 @@
+.wrapper-newsletter-landing{
+    background-color: #FF5440;
+    padding: 5rem 0;
+}
+
+.wrapper-newsletter-landing h4{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.wrapper-newsletter-landing input{
+    border: 0.1rem solid #444444;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem 0.5rem 1.5rem;
+    margin-right: .2rem;
+}
+
+.wrapper-newsletter-landing input:focus{
+    outline: none;
+    border: 0.1rem solid #444444;
+    border-radius: 2rem;
+}
+
+.wrapper-newsletter-landing button{
+    color: #E0230D;
+    font-weight: 700;
+    border: none;
+    border-radius: 6rem;
+    padding: 0.6rem 2rem;
+    cursor: pointer;
+}
+
+.wrapper-newsletter-landing button:hover{
+    opacity: 0.9;
+}

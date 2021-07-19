@@ -1,0 +1,32 @@
+.wrapper-block-cards{
+    margin: 15rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: 2rem auto;
+    max-width: 80rem; */
+}
+
+.wrapper-block-cards .block-cards-card{
+    position: relative;
+    margin: .2rem;
+    width: 14rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+    border: .1rem solid transparent;
+    border-radius: .4rem;
+}
+
+.wrapper-block-cards .block-cards-card img{
+    width: 100%;
+}
+
+.wrapper-block-cards .block-cards-card p{
+    position: absolute;
+    color: #fff;
+}

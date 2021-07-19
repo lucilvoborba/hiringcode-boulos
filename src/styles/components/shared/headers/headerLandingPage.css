@@ -1,0 +1,69 @@
+.header-landing-page{
+    width: 100%;
+    padding-top: 1rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.header-landing-page .container-header{
+    max-width: 75rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-landing-page .container-header .logo{
+    width: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-landing-page .container-header .logo span{
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.header-landing-page .container-header .logo img{
+    width: 100%;
+}
+
+.header-landing-page .container-header .container-nav{
+    display: flex;
+}
+
+.header-landing-page .container-header .container-nav .nav{
+    margin-right: 2rem;
+}
+
+.header-landing-page .container-header .container-nav .nav ul{
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.header-landing-page .container-header .container-nav .nav ul li{
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.header-landing-page .container-header .container-nav .container-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-landing-page .container-header .container-nav .container-button button{
+    color: #fff;
+    border: none;
+    border-radius: 6rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.header-landing-page .container-header .container-nav .container-button button:hover{
+    opacity: 0.9;
+}

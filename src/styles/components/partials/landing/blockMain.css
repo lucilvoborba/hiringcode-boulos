@@ -1,0 +1,15 @@
+.wrapper-block-main{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-block-main img{
+    width: 45rem;
+}
+
+.wrapper-block-main .container-content-block-main{
+    margin-right: 5rem;
+}
